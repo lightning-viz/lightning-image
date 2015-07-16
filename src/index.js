@@ -25,14 +25,15 @@ var Visualization = LightningVisualization.extend({
 
         this.identifier = utils.getUniqueId();
         var markup = template({identifier: this.identifier});
-
         this.$el = $(this.selector).first();
-
         this.$el.append(markup);
+        this.render();
+    },
+
+    render: function() {
         this.img = new Image();
         this.img.onload = this.onImageLoad.bind(this);
         this.img.src = utils.cleanImageURL(this.images[0]);
-
     },
 
     onImageLoad: function() {
