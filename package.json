@@ -2,6 +2,7 @@
   "name": "lightning-image",
   "version": "0.0.2",
   "dependencies": {
+    "brfs": "^1.4.0",
     "jquery": "^2.1.4",
     "leaflet": "^0.7.3",
     "lightning-client-utils": "^0.6.3",
@@ -11,9 +12,6 @@
   "keywords": [
     "lightning-visualization"
   ],
-  "devDependencies": {
-    "brfs": "^1.4.0"
-  },
   "engines": {
     "node": ">=0.8.0"
   },
