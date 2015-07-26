@@ -10,7 +10,6 @@ var fs = require('fs');
 var styles = fs.readFileSync(__dirname + '/styles/style.css');
 var template = _.template(fs.readFileSync(__dirname + '/templates/index.html'));
 
-
 /*
  * Extend the base visualization object
  */
