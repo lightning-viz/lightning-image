@@ -25,6 +25,6 @@
     "url": "git+https://github.com/lightning-viz/lightning-image.git"
   },
   "lightning": {
-    "sampleData": []
+    "name": "image"
   }
 }
