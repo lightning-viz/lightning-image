@@ -6,7 +6,7 @@
     "jquery": "^2.1.4",
     "leaflet": "^0.7.3",
     "lightning-client-utils": "^0.6.3",
-    "lightning-visualization": "^0.0.6",
+    "lightning-visualization": "^0.1.0",
     "lodash": "^3.10.0"
   },
   "keywords": [

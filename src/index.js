@@ -7,7 +7,7 @@ var $ = require('jquery');
 var L;
 
 var fs = require('fs');
-var styles = fs.readFileSync(__dirname + '/styles/style.css');
+var css = fs.readFileSync(__dirname + '/style.css');
 var template = _.template(fs.readFileSync(__dirname + '/templates/index.html'));
 
 /*
@@ -15,7 +15,7 @@ var template = _.template(fs.readFileSync(__dirname + '/templates/index.html'));
  */
 var Visualization = LightningVisualization.extend({
 
-    styles: styles,
+    css: css,
 
     init: function() {
 
